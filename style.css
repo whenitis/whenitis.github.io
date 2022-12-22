@@ -49,6 +49,7 @@ html, body {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 #footer a {
@@ -70,4 +71,9 @@ html, body {
     #sentence {
         margin-bottom: 20px;
     }
+
+    #footer a:hover {
+        color: #fffffe;
+    }
+
 }
