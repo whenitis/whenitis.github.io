@@ -55,6 +55,7 @@ html, body {
     color: #fffffe;
     transition-duration: 200ms;
     transition-property: color;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #footer a:hover {
