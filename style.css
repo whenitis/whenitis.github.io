@@ -66,4 +66,8 @@ html, body {
     #sentenceTime span {
         display: block;
     }
+
+    #sentence {
+        margin-bottom: 20px;
+    }
 }
