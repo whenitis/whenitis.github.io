@@ -59,10 +59,6 @@ html, body {
     -webkit-tap-highlight-color: transparent;
 }
 
-#footer a:hover {
-    color: #5f6c7b;
-}
-
 @media screen and (max-width: 1024px) {
     #sentenceTime span {
         display: block;
