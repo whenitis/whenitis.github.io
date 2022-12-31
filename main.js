@@ -1,4 +1,4 @@
-var deadline = new Date("Jan 1, 2023 0:0:0").getTime();
+var deadline = new Date("Jan 1, 2024 0:0:0").getTime();
 var x = setInterval(function() {
 var now = new Date().getTime();
 var t = deadline - now;
@@ -11,6 +11,6 @@ document.getElementById("time").innerHTML = days + "j "
     if (t < 0) {
         clearInterval(x);
         document.getElementById("sentence").innerHTML = ""
-        document.getElementById("time").innerHTML = "On est en 2023 !";
+        document.getElementById("time").innerHTML = "On est en 2024 !";
     }
 }, 1000);
